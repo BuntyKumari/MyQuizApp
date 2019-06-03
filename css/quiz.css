@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: gray;
+}
+.qpanel{
+    width:70%;
+    background-color: #467706;
+    margin:20px auto;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:10px;
+    height: 300px; 
+    line-height: 2;
+    padding:40px;
+    
+}
+.question{
+    font-size: 22px;
+    font-weight: 600;
+}
+.ostyle{
+    padding-left:32px;
+    letter-spacing: 1px;
+}
+.check-btn{
+    float: right;
+    padding-right: 30px;
+}
+.btn{
+padding: 15px;
+width: 250px;
+font-size: 16px;
+text-shadow: 4px 2px 3px;
+font-size: 24px;
+color: #467776;
+}

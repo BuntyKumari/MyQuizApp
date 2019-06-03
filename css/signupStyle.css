@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    width: 100%;
+    background-color: #2581AC;
+}
+.header-area h2{
+    text-align: center;  
+    color: #fff;
+    padding: 10px 0;
+}
+.header-area h2 span{
+    font-weight: bold;
+}
+.form-section{
+    background-color: #F2F7FA;
+    width: 50%;  
+    margin:0 auto;
+    padding:20px;
+}
+label{
+    width:100%;
+}
+@media screen and (max-width: 767px) {
+.form-section{
+    width:100%;
+}
+}

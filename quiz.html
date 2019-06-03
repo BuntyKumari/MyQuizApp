@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/quiz.css">
+    <title>Quiz Application</title>
+</head>
+
+<body>
+    <div class="qpanel">
+        <div id="output"></div>
+        <div id="question" class="question">
+        </div>
+        <div class="ostyle">
+            <input type="radio" id="opt1" name="options">
+            <span id="option1"></span>
+        </div>
+        <div class="ostyle">
+            <input type="radio" id="opt2" name="options">
+            <span id="option2"></span>
+        </div>
+        <div class="ostyle">
+            <input type="radio" id="opt3" name="options">
+            <span id="option3"></span>
+        </div>
+        <div class="ostyle">
+            <input type="radio" id="opt4" name="options">
+            <span id="option4"></span>
+        </div>
+        <hr>
+        <div class="check-btn">
+            <button onclick="checkAnswer()" class="btn">next</button>
+            <hr>
+        </div>
+    </div>
+    <!-- <script src="js/jsondata.js"></script> -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
